@@ -1,0 +1,219 @@
+local ExploitersGui = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local CashButton = Instance.new("TextButton")
+local TicketsButton = Instance.new("TextButton")
+local Currency = Instance.new("TextLabel")
+local SandwichButton = Instance.new("TextButton")
+local Items = Instance.new("TextLabel")
+local PizzaButton = Instance.new("TextButton")
+local SodaButton = Instance.new("TextButton")
+local IcecreamButton = Instance.new("TextButton")
+local FlashlightButton = Instance.new("TextButton")
+local CookieButton = Instance.new("TextButton")
+local BatButton = Instance.new("TextButton")
+
+ExploitersGui.Name = "ExploitersGui"
+ExploitersGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ExploitersGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MainFrame.Name = "MainFrame"
+MainFrame.Draggable = true
+MainFrame.Parent = ExploitersGui
+MainFrame.BackgroundColor3 = Color3.fromRGB(72, 72, 72)
+MainFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MainFrame.BorderSizePixel = 4
+MainFrame.Position = UDim2.new(0.0490405075, 0, 0.203911692, 0)
+MainFrame.Size = UDim2.new(0.232409388, 0, 0.592176616, 0)
+
+CashButton.Name = "CashButton"
+CashButton.Parent = MainFrame
+CashButton.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
+CashButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CashButton.BorderSizePixel = 2
+CashButton.Position = UDim2.new(0.0868347362, 0, 0.150717705, 0)
+CashButton.Size = UDim2.new(0.336134464, 0, 0.107655503, 0)
+CashButton.Font = Enum.Font.GothamBlack
+CashButton.Text = "INFINITE CASH"
+CashButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+CashButton.TextScaled = true
+CashButton.TextSize = 14.000
+CashButton.TextWrapped = true
+
+TicketsButton.Name = "TicketsButton"
+TicketsButton.Parent = MainFrame
+TicketsButton.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
+TicketsButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TicketsButton.BorderSizePixel = 2
+TicketsButton.Position = UDim2.new(0.574229717, 0, 0.150717705, 0)
+TicketsButton.Size = UDim2.new(0.336134464, 0, 0.107655503, 0)
+TicketsButton.Font = Enum.Font.GothamBlack
+TicketsButton.Text = "INFINITE TICKETS"
+TicketsButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TicketsButton.TextScaled = true
+TicketsButton.TextSize = 14.000
+TicketsButton.TextWrapped = true
+
+Currency.Name = "Currency"
+Currency.Parent = MainFrame
+Currency.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Currency.BackgroundTransparency = 1.000
+Currency.Position = UDim2.new(0.218487397, 0, 0.0143540669, 0)
+Currency.Size = UDim2.new(0.560224116, 0, 0.119617224, 0)
+Currency.Font = Enum.Font.GothamBlack
+Currency.Text = "CURRENCY"
+Currency.TextColor3 = Color3.fromRGB(0, 0, 0)
+Currency.TextScaled = true
+Currency.TextSize = 14.000
+Currency.TextWrapped = true
+
+SandwichButton.Name = "SandwichButton"
+SandwichButton.Parent = MainFrame
+SandwichButton.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
+SandwichButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SandwichButton.BorderSizePixel = 2
+SandwichButton.Position = UDim2.new(0.0868347362, 0, 0.418660313, 0)
+SandwichButton.Size = UDim2.new(0.336134464, 0, 0.107655503, 0)
+SandwichButton.Font = Enum.Font.GothamBlack
+SandwichButton.Text = "FREE SANDWICH"
+SandwichButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+SandwichButton.TextScaled = true
+SandwichButton.TextSize = 14.000
+SandwichButton.TextWrapped = true
+
+Items.Name = "Items"
+Items.Parent = MainFrame
+Items.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Items.BackgroundTransparency = 1.000
+Items.Position = UDim2.new(0.218487397, 0, 0.279904336, 0)
+Items.Size = UDim2.new(0.560224116, 0, 0.119617224, 0)
+Items.Font = Enum.Font.GothamBlack
+Items.Text = "ITEMS"
+Items.TextColor3 = Color3.fromRGB(0, 0, 0)
+Items.TextScaled = true
+Items.TextSize = 14.000
+Items.TextWrapped = true
+
+PizzaButton.Name = "PizzaButton"
+PizzaButton.Parent = MainFrame
+PizzaButton.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
+PizzaButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PizzaButton.BorderSizePixel = 2
+PizzaButton.Position = UDim2.new(0.574229717, 0, 0.418660313, 0)
+PizzaButton.Size = UDim2.new(0.336134464, 0, 0.107655503, 0)
+PizzaButton.Font = Enum.Font.GothamBlack
+PizzaButton.Text = "FREE PIZZA"
+PizzaButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+PizzaButton.TextScaled = true
+PizzaButton.TextSize = 14.000
+PizzaButton.TextWrapped = true
+
+SodaButton.Name = "SodaButton"
+SodaButton.Parent = MainFrame
+SodaButton.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
+SodaButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SodaButton.BorderSizePixel = 2
+SodaButton.Position = UDim2.new(0.574229717, 0, 0.545656919, 0)
+SodaButton.Size = UDim2.new(0.336134464, 0, 0.107655503, 0)
+SodaButton.Font = Enum.Font.GothamBlack
+SodaButton.Text = "FREE SODA"
+SodaButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+SodaButton.TextScaled = true
+SodaButton.TextSize = 14.000
+SodaButton.TextWrapped = true
+
+IcecreamButton.Name = "IcecreamButton"
+IcecreamButton.Parent = MainFrame
+IcecreamButton.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
+IcecreamButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+IcecreamButton.BorderSizePixel = 2
+IcecreamButton.Position = UDim2.new(0.0868347362, 0, 0.545656919, 0)
+IcecreamButton.Size = UDim2.new(0.336134464, 0, 0.107655503, 0)
+IcecreamButton.Font = Enum.Font.GothamBlack
+IcecreamButton.Text = "FREE ICECREAM"
+IcecreamButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+IcecreamButton.TextScaled = true
+IcecreamButton.TextSize = 14.000
+IcecreamButton.TextWrapped = true
+
+FlashlightButton.Name = "FlashlightButton"
+FlashlightButton.Parent = MainFrame
+FlashlightButton.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
+FlashlightButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FlashlightButton.BorderSizePixel = 2
+FlashlightButton.Position = UDim2.new(0.574229717, 0, 0.672653496, 0)
+FlashlightButton.Size = UDim2.new(0.336134464, 0, 0.107655503, 0)
+FlashlightButton.Font = Enum.Font.GothamBlack
+FlashlightButton.Text = "FREE FLASHLIGHT"
+FlashlightButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+FlashlightButton.TextScaled = true
+FlashlightButton.TextSize = 14.000
+FlashlightButton.TextWrapped = true
+
+CookieButton.Name = "CookieButton"
+CookieButton.Parent = MainFrame
+CookieButton.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
+CookieButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CookieButton.BorderSizePixel = 2
+CookieButton.Position = UDim2.new(0.0868347362, 0, 0.672653496, 0)
+CookieButton.Size = UDim2.new(0.336134464, 0, 0.107655503, 0)
+CookieButton.Font = Enum.Font.GothamBlack
+CookieButton.Text = "FREE GIANT COOKIE"
+CookieButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+CookieButton.TextScaled = true
+CookieButton.TextSize = 14.000
+CookieButton.TextWrapped = true
+
+BatButton.Name = "BatButton"
+BatButton.Parent = MainFrame
+BatButton.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
+BatButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BatButton.BorderSizePixel = 2
+BatButton.Position = UDim2.new(0.330532223, 0, 0.801959097, 0)
+BatButton.Size = UDim2.new(0.336134464, 0, 0.107655503, 0)
+BatButton.Font = Enum.Font.GothamBlack
+BatButton.Text = "FREE BAT"
+BatButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+BatButton.TextScaled = true
+BatButton.TextSize = 14.000
+BatButton.TextWrapped = true
+
+local function QVXXG_fake_script()
+	local script = Instance.new('Script', MainFrame)
+	
+	script.Parent.CashButton.MouseButton1Click:Connect(function()
+		game.ReplicatedStorage.Remotes.giveCashEvent:FireServer(99999999999)
+	end)
+	
+	script.Parent.TicketsButton.MouseButton1Click:Connect(function()
+		game.ReplicatedStorage.Remotes.giveTicketsEvent:FireServer(99999999999)
+	end)
+	
+	script.Parent.SandwichButton.MouseButton1Click:Connect(function()
+		game.ReplicatedStorage.Remotes.buyItemEvent:FireServer("Sandwich", "Cash", 0)
+	end)
+	
+	script.Parent.BatButton.MouseButton1Click:Connect(function()
+		game.ReplicatedStorage.Remotes.buyItemEvent:FireServer("Bat", "Cash", 0)
+	end)
+	
+	script.Parent.IcecreamButton.MouseButton1Click:Connect(function()
+		game.ReplicatedStorage.Remotes.buyItemEvent:FireServer("Icecream", "Cash", 0)
+	end)
+	
+	script.Parent.FlashlightButton.MouseButton1Click:Connect(function()
+		game.ReplicatedStorage.Remotes.buyItemEvent:FireServer("Flashlight", "Cash", 0)
+	end)
+	
+	script.Parent.CookieButton.MouseButton1Click:Connect(function()
+		game.ReplicatedStorage.Remotes.buyItemEvent:FireServer("GiantCookie", "Cash", 0)
+	end)
+	
+	script.Parent.SodaButton.MouseButton1Click:Connect(function()
+		game.ReplicatedStorage.Remotes.buyItemEvent:FireServer("Bloxycola", "Cash", 0)
+	end)
+	
+	script.Parent.PizzaButton.MouseButton1Click:Connect(function()
+		game.ReplicatedStorage.Remotes.buyItemEvent:FireServer("Pizza", "Cash", 0)
+	end)
+end
+coroutine.wrap(QVXXG_fake_script)()
